@@ -1,0 +1,11 @@
+num1=int(input("enter a number: "))
+num2=int(input("enter a number: "))
+sum=float(num1)+float(num2)
+sub=float(num1)-float(num2)
+mul=float(num1)*float(num2)
+div=float(num1)/float(num2)
+
+print('the sum of {0} and {1} is{2}'.format(num1,num2,sum))
+print('the difference of {0} and {1} is{2}'.format(num1,num2,sub))
+print('the multiplication of {0} and {1} is{2}'.format(num1,num2,mul))
+print('the division of {0} and {1} is{2}'.format(num1,num2,div))
